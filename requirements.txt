@@ -1,0 +1,10 @@
+PyJWT
+wtforms
+flask
+flask-bootstrap
+flask-login
+flask-sqlalchemy
+flask-bcrypt
+flask-wtf
+Flask-Mail
+email-validator

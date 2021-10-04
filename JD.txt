@@ -1,0 +1,57 @@
+Hi, I have a RL / DL chess program with web app UI. that I've been working on. However sadly and unfortunately the key programmer has died.
+
+I am looking for someone who can help with a "bug" that I have with the code... There are more jobs available to help develop this program, but the current urgent one is:
+
+Project 1) Remove Stacked Data & Refactor Code:
+The issue is that the data is being stacked when new "player data" (PGN data) is being loaded, instead of being removed.... So then the program is looking at two sets of data, instead of just the new data that has been loaded... which gives incorrect results.
+
+It's programmed in Java / Python etc.
+
+I haven't done programming in over a decade so I wouldn't be much help with pointing out the relevant areas in the code.
+
+I am not restricted on time, so it is acceptable if it this is worked on casually.
+
+Is this something that you'd be able for?
+If so, let me know and I can send over the code.
+
+Thanks!
+
+Please see the attached files:
+The program and web app; RLChessApp & RLChessApp (Model).
+I have attached PGN files (player data, alphanumeric); these can be opened in notepad, then copy and paste the data into the web app.
+
+Jobs for now are:
+1) Remove Stacked data, as discussed above... when new PGN data is loaded, it needs to "erase" previous PGN data so it's not looking at 2 different data sets.
+2) Change name in app from MLSOFT to Chess Laboratory
+
+If you could let me know if this is within your skill set.
+If you can let me know at your earliest convenience a quote for the job.
+
+There are some more jobs for once this stage is completed.
+
+Many thanks
+
+Following up on our discussions, regarding a RL / DL chess program with web app UI; that I've been working on.
+I haven't done programming in a long time so I wouldn't be much help with pointing out the relevant areas in the code.
+
+
+This project is for the following:
+
+
+1) Correct the error that currently exists with the PGN data process flow; removing stacked data (old PGN data when new PGN data is loaded) and refactoring the code.
+
+At present, when inputting new PGN data into the web app, it is currently being stacked on top of the old PGN data. Therefore the program is looking at two sets of data, instead of just one set (the new PGN data that has been loaded).
+With the current set up, by looking at the two PGN data sets (old and new) it is giving incorrect results because it should ONLY be using the newly loaded PGN data.
+
+This needs to be changed, by having the old PGN data deleted / removed whenever new PGN data is loaded... We need to have it so that ONLY the newly loaded PGN data should be analysed for giving results during gameplay... without any trace of the old PGN data.
+
+Note, there is PGN data which is included in the inital launch of the web app, please make sure that when loading new PGN data, even from a fresh launch of the app, that this PGN data is also deleted... this should happen automatically as part of your code change, but just to point it out.
+
+Note, during any one session, a player might play for hours, so will go through various PGN data sets to experiment playing... please make sure that this is taken into account... again, this should happen automatically as part of your code change, but just to point it out.
+
+
+2) Replace any mention of ML_Soft with “Chess Opponent”. (for example on the web app interface on the top right hand side).
+
+3) If time permits, then please add a function to be able increase the amount of CPU power being used by the app. As currently this isn't using much of the computers resources when set to a higher depth level, which results in a much longer processing time... if this is possible, please have this as a slider bar to be able to set from for example 5% to 100%.
+
+Many thanks
